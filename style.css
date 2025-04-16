@@ -1,0 +1,80 @@
+/* style.css */
+
+/* 1. Universal styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* 2. Header styling */
+.header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* Navigation bar */
+.navbar {
+    background-color: #34495e;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center; /* ✅ Center content inside navbar */
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 15px; /* ✅ Equal spacing left and right */
+    font-weight: bold;
+}
+
+.nav-item a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* 4. Main content section */
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* 5. Image styling */
+.img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 6. ID Selector Example */
+#section-title {
+    color: #2980b9;
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+/* 7. Footer styling */
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
